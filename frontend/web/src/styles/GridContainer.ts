@@ -1,8 +1,8 @@
-import styled from 'styled-components'
+import  styled  from "styled-components";
 
 
 export const GridLayout = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: grid;
     grid-template-areas: "aside header header"
@@ -40,7 +40,7 @@ export const Menu = styled.aside`
     display: block;
     /*position: fixed;*/
     max-width: 100%;
-    border: 1px solid red;
+    background-color: gray;
     /*box-shadow: 1px 3px 3px var(--cor-box-cinza);*/
     border-bottom-right-radius: 3px;
     overflow-y: auto;

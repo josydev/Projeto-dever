@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "src"
+  },
+  "include": ["src", "../../github/projeto-dever/web/src/components/hamburguer"],
+  "exclude": [
+    "node_modules"
+  ]
+}

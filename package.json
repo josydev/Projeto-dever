@@ -1,0 +1,26 @@
+{
+  "name": "projeto-dever",
+  "version": "1.0.0",
+  "description": "Esse projeto é para ser uma aplicação web/mobile de **anotações**, onde a pessoa pode fazer *task lists*, *projetos* e *guardar seus \r conteúdos*, *arquivos de estudos* e etcetera.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtmiranda/Projeto-dever.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtmiranda/Projeto-dever/issues"
+  },
+  "homepage": "https://github.com/mtmiranda/Projeto-dever#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  }
+}
